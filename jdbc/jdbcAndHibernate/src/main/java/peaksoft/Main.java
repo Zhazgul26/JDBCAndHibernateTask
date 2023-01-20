@@ -14,8 +14,9 @@ public class Main {
 //
 //        UserService userService = new UserServiceImpl();
 //
-//        userService.saveUser("Nurkyz", "Kasymova", (byte)20);
-//        userService.saveUser("Zhazgul", "Sarybaeva", (byte) 19);
+//        userService.saveUser("Zhazgul", "Zhoroeva", (byte) 19);
+        //        userService.saveUser("Nurkyz", "Kasymova", (byte)20);
+
 //        userService.saveUser("Madina", "Musaeva", (byte) 16);
 //        userService.saveUser("Erjigit", "Kalmyrzaev", (byte) 18);
 //
@@ -27,7 +28,7 @@ public class Main {
 
         //userService.dropUsersTable();
 
-        UserServiceImpl service = new UserServiceImpl();
+        UserService service = new UserServiceImpl();
 
         service.createUsersTable();
 
